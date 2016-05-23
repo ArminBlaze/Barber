@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Барбершоп «Бородинский»</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="item-body">
+   <header class="main-header">
+    <div class="container clearfix">
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li class="active">Магазин</li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a href="login.html" class="login">Вход</a>
+      </div>
+    </div>
+  </header>
+   
+  <main class="container item-container clearfix">
+         <ul class="breadcrumbs">
+					 <li><a href="index.html">Главная</a></li>
+		<li><a href="shop.html">Магазин</a></li>
+	<li><a href="shop.html#">Средства для ухода</a></li>
+	<li class="current">Baxter of california</li>
+         </ul>
+       
+         <div class="item-column-left">
+          <img class="gallery-big" src="pict/item_big.jpg" alt="Большая фотография товара" width="460" height="498">
+          <img class="gallery-small" src="pict/item_small_1.jpg" alt="Маленькая фотография товара" width="140" height="149">
+          <img class="gallery-small" src="pict/item_small_2.jpg" alt="Маленькая фотография товара" width="140" height="149">
+          <img class="gallery-small" src="pict/item_small_3.jpg" alt="Маленькая фотография товара" width="140" height="149">
+         </div>
+         
+         <div class="item-column-right">
+           <h1 class="title-1">Набор для путешествий</h1>
+           <h3 class="title-2"><a href="#">Baxter of california</a></h3>
+           <div class="item-price">
+             <span>2 900 Руб.</span>
+             <button class="btn">Купить</button>
+           </div>
+           <section class="item-info">
+           Есть в наличии <span>Артикул: Dexter-ae</span>
+           <p>Travel Kit - Необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+          </section>
+          <section class="item-contain">
+           <h3 class="title-2">В набор входят:</h3>
+           <ul>
+             <li>Средство для умывания (50мл)</li>
+             <li>Увлажняющий крем (50мл)</li>
+             <li>Крем для бритья (50мл)</li>
+             <li>Крем после бритья, шампунь (50мл)</li>
+             <li>Удобная кожаная косметичка</li>
+           </ul>
+           </section>
+         </div>
+         
+  </main>
+   
+  <footer class="main-footer price-footer">
+       <div class="container clearfix">
+         <section class="footer-contacts">
+           Барбершоп Бородинский<br>
+           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+           <a href="contacts.html" class="open-map">Как нас найти?</a><br>
+           телефон: +7 (495) 666-02-66
+         </section>
+         <section class="footer-social">
+           <p>Давайте дружить!</p>
+           <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+           <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+           <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+         </section>
+         <section class="footer-copyright">
+           <p>Дизайн сайта:</p>
+           <a href="#" class="btn  btn-1">Glukhanko.ru</a>
+         </section>
+       </div>
+  </footer>
+   
+   
+     <div class="modal-content">
+  	<div class="modal-content-close">закрыть</div>
+  	<h2 class="modal-content-title">Личный кабинет</h2>
+  	<p>Введите пожалуйста свой логин и пароль.<br>
+  	Если вы забыли пароль</p>
+  	<form class="login-form" action="/echo" method="post" >
+  		<input type="text" class="icon-user" name="login" placeholder="Логин" required>
+  		<input type="password" class="icon-password" name="password" placeholder="Пароль" required>
+  		<input type="checkbox" name="remember" id="remember-me">
+  		<label for="remember-me">Запомните меня</label>
+  		<a href="#" class="restore">Я забыл пароль!</a>
+  		<button type="submit" class="btn btn-2">Войти</button>
+  	</form>
+  </div>
+  
+  <div class="modal-content-map">
+  	<div class="modal-content-close">закрыть</div>
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6493.567340611631!2d30.31637007061427!3d59.93827793490338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa2950fb15748e884!2sPalace+Square!5e0!3m2!1sen!2sru!4v1452744850097" width="766" height="561" allowfullscreen></iframe>
+  </div>
+   
+   <script src="js/form.js"></script> 
+   <script src="js/map.js"></script> 
+    
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Барбершоп «Бородинский»</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="main-header">
+    <div class="container clearfix">
+      <nav class="main-navigation">
+        <ul>
+          <li class="active">Главная</li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li><a href="shop.html">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a href="login.html" class="login">Вход</a>
+      </div>
+    </div>
+  </header>
+   
+  <main class="container">
+       <div class="logo">
+         <img src="img/logo.png" alt="Барбершоп «Бородинский»" width="368" height="204">
+       </div>
+       <div class="features-row clearfix">
+         <section class="features-item">
+           <h2 class="title-1 features-title">Быстро</h2>
+           <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+         </section>
+         <section class="features-item">
+           <h2 class="title-1 features-title">Круто</h2>
+           <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+         </section>
+         <section class="features-item">
+           <h2 class="title-1 features-title">Дорого</h2>
+           <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+         </section>
+       </div>
+       
+<!--       Новости в окно с прокруткой overflow?-->
+       <div class="index-content clearfix">
+         <section class="content-column-left">
+           <h2 class="title-1 content-column-title">Новости</h2>
+           <ul class="news-preview">
+             <li><a href="#">
+               Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки<br>
+               <time datetime="2013-09-25">25 сентября</time>
+             </a></li>
+             <li><a href="#">
+               В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды<br>
+               <time datetime="2013-09-19">19 сентября</time>
+             </a></li>
+           </ul>
+           <a href="#" class="btn btn-1">Все новости</a>
+         </section>
+         <section class="content-column-right">
+           <h2 class="title-1 content-column-title">Фотогалерея</h2>
+           <div class="gallery">
+             <figure class="gallery-content">
+               <a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+
+               <a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+               <a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+               <a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+<a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+
+               <a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+               <a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+               <a href=""><img src="pict/gallery_main.jpg" alt="" width="286" height="164"></a>
+
+               
+             </figure>
+<!--
+             <button class="btn gallery-prev" disabled>Назад</button>
+             <button class="btn gallery-next">Вперед</button>
+-->
+           </div>
+         </section>
+       </div>
+       <div class="index-content clearfix">
+         <section class="content-column-left">
+          <div class="main-contacts">
+            <h2 class="title-1 content-column-title">Контактная информация</h2>
+            <p>
+              Барбершоп «Бородинский»<br>
+              Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+              Телефон: +7 (495) 666-02-66
+            </p>
+            <p>
+              Время работы:<br>
+              пн - пт: с 10:00 до 22:00<br>
+              сб - вс: с 10:00 до 19:00
+            </p>
+            <a href="contacts.html" class="btn btn-1 open-map">Как проехать</a>
+            <a href="#" class="btn btn-1">Обратная связь</a>
+          </div>
+           
+         </section>
+         <section class="content-column-right">
+           <div class="appointment-form">
+             <h2 class="title-1 content-column-title">Записаться</h2>
+             <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+             <form action="/echo" method="post">
+               <input type="text" name="date"  value="" placeholder="Дата" onfocus="(this.type='date')" onblur="(this.type='text')">
+               <input type="text" name="time"  value="" placeholder="Время" onfocus="(this.type='time')" onblur="(this.type='text')">
+               <input type="text" name="name"  value="" placeholder="Ваше имя">
+               <input type="tel" name="phone"  value="" placeholder="Телефон">
+               <button class="btn btn-2" type="submit">Отправить</button>
+             </form>
+           </div>
+         </section>
+       </div>
+  </main>
+   
+  <footer class="main-footer">
+       <div class="container clearfix">
+         <section class="footer-contacts">
+           Барбершоп Бородинский<br>
+           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+<!--           <a href="#">Как нас найти?</a><br>-->
+           телефон: +7 (495) 666-02-66
+         </section>
+         <section class="footer-social">
+           <p>Давайте дружить!</p>
+           <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+           <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+           <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+         </section>
+         <section class="footer-copyright">
+           <p>Дизайн сайта:</p>
+           <a href="#" class="btn btn-1">Glukhanko.ru
+           </a>
+         </section>
+       </div>
+  </footer>
+  
+  <div class="modal-content">
+  	<div class="modal-content-close">закрыть</div>
+  	<h2 class="modal-content-title">Личный кабинет</h2>
+  	<p>Введите пожалуйста свой логин и пароль.<br>
+  	Если вы забыли пароль</p>
+  	<form class="login-form" action="/echo" method="post" >
+  		<input type="text" class="icon-user" name="login" placeholder="Логин" required>
+  		<input type="password" class="icon-password" name="password" placeholder="Пароль" required>
+  		<input type="checkbox" name="remember" id="remember-me">
+  		<label for="remember-me">Запомните меня</label>
+  		<a href="#" class="restore">Я забыл пароль!</a>
+  		<button type="submit" class="btn btn-2">Войти</button>
+  	</form>
+  </div>
+   
+  <div class="modal-content-map">
+  	<div class="modal-content-close">закрыть</div>
+  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6493.567340611631!2d30.31637007061427!3d59.93827793490338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa2950fb15748e884!2sPalace+Square!5e0!3m2!1sen!2sru!4v1452744850097" width="766" height="561" allowfullscreen></iframe>
+  </div>
+    
+ <script src="js/script.js"></script> 
+</body>
+</html>

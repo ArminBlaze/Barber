@@ -1,0 +1,71 @@
+.sprite {
+    background-image: url(sprite_2.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-form_checkbox_checked_2 {
+    width: 12px;
+    height: 12px;
+    background-position: -10px -10px;
+}
+
+.sprite-form_cross {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -42px;
+}
+
+.sprite-icon_enter {
+    width: 18px;
+    height: 16px;
+    background-position: -10px -83px;
+}
+
+.sprite-icon_fb_black {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -119px;
+}
+
+.sprite-icon_fb_white {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -161px;
+}
+
+.sprite-icon_ig_black {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -203px;
+}
+
+.sprite-icon_ig_white {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -244px;
+}
+
+.sprite-icon_login {
+    width: 15px;
+    height: 15px;
+    background-position: -10px -285px;
+}
+
+.sprite-icon_password {
+    width: 15px;
+    height: 17px;
+    background-position: -10px -320px;
+}
+
+.sprite-icon_vk_black {
+    width: 25px;
+    height: 16px;
+    background-position: -10px -357px;
+}
+
+.sprite-icon_vk_white {
+    width: 25px;
+    height: 16px;
+    background-position: -10px -393px;
+}

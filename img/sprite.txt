@@ -1,0 +1,12 @@
+.sprite { background: url('sprite.png') no-repeat top left; width: 12px; height: 16px;  } 
+.sprite.icon_fb_black { background-position: 0 0; height: 22px; } 
+.sprite.icon_fb_white { background-position: 0 -32px; height: 22px; } 
+.sprite.icon_ig_black { background-position: 0 -64px; width: 21px; height: 21px; } 
+.sprite.icon_ig_white { background-position: 0 -95px; width: 21px; height: 21px; } 
+.sprite.icon_vk_black { background-position: 0 -126px; width: 25px; } 
+.sprite.icon_vk_white { background-position: 0 -152px; width: 25px; } 
+.sprite.icon_login { background-position: 0 -178px; width: 15px; height: 15px; } 
+.sprite.icon_password { background-position: 0 -203px; width: 15px; height: 17px; } 
+.sprite.form_checkbox_checked_2 { background-position: 0 -230px; height: 12px; } 
+.sprite.form_cross { background-position: 0 -252px; width: 21px; height: 21px; } 
+.sprite.icon_enter { background-position: 0 -283px; width: 18px; } 
