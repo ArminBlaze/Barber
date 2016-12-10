@@ -367,6 +367,10 @@ main.container {
 /*	margin-right: 80px;*/
 }
 
+.footer-contacts a {
+	color: white;
+}
+
 .footer-social {
 	float: left;
 	text-align: center;
