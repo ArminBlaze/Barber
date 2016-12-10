@@ -255,7 +255,7 @@ main.container {
 }
 
 .btn:hover:not(:disabled),
-.btn:active {
+.btn:active:not(:disabled) {
 	background: #663d15;
 }
 
